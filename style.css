@@ -1,0 +1,100 @@
+/* 
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range 
+of screen sizes from 320px to large screens.
+
+## Colors x
+- Yellow: hsl(47, 88%, 63%)
+- White: hsl(0, 0%, 100%)
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+
+> 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional 
+tools like Figma, you can download the design file from where you downloaded the starter code. */
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+html {
+  box-sizing: initial;
+  display: flex;
+}
+
+body {
+  background-color: var(--yellow);
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+div {
+  font-size: 16px;
+  font-family: Figtree;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* h1 {
+    font-size: medium;
+    font-family: Figtree;
+    font-weight: 800;
+} */
+
+p {
+  font-size: 16px;
+  font-family: Figtree;
+  font-weight: 500;
+}
+
+#card {
+  background-color: var(--white);
+  padding: 8px;
+  border-radius: 5%;
+  width: 285px;
+  min-height: 420px;
+  margin: auto;
+  align-items: center;
+  height: 200px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px;
+}
+
+#top {
+  width: 100%;
+  border-radius: 5%;
+}
+
+button {
+  background-color: var(--yellow);
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Figtree;
+  font-weight: 500;
+}
+
+#profile {
+  width: 30px;
+  vertical-align: middle;
+}

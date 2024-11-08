@@ -26,6 +26,8 @@ of screen sizes from 320px to large screens.
 > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional 
 tools like Figma, you can download the design file from where you downloaded the starter code. */
 
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap");
+
 :root {
   --yellow: hsl(47, 88%, 63%);
   --white: hsl(0, 0%, 100%);
@@ -34,6 +36,7 @@ tools like Figma, you can download the design file from where you downloaded the
 }
 
 html {
+  font-family: "Figtree", sans-serif;
   box-sizing: initial;
   display: flex;
 }
@@ -47,18 +50,19 @@ body {
 }
 
 div {
+  font: var(--gray-500);
   font-size: 16px;
   font-family: Figtree;
-  font-weight: 500;
+
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* h1 {
-    font-size: medium;
-    font-family: Figtree;
-    font-weight: 800;
-} */
+h1 {
+  font: var(--gray-950);
+  font-size: medium;
+  font-family: Figtree;
+}
 
 p {
   font-size: 16px;
